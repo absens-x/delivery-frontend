@@ -1,0 +1,39 @@
+@import '../../../sass/boot/utils/index';
+
+.btn {
+    display: inline-block;
+    background-color: $color_red;
+    color: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid $color_red;
+    outline: none;
+    height: 38px;
+    border-radius: 4px;
+    font: $font_size_xs $second_font_family;
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.3s;
+    @include text-select-off;
+
+    &:hover {
+        background-color: $color_dark_red;
+    }
+
+    &:active {
+        background-color: $color_dark;
+        border-color: $color_dark;
+    }
+}
+
+
+.btn.disabled {
+    background-color: $color_light_blue;
+    border: 1px solid $color_grey;
+    color: $color_grey;
+}
+
+
+
