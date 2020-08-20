@@ -31,17 +31,22 @@
 
 //  * Input States
 
-.input.disabled {
+.disabled {
 
     input {
         opacity: 0.5;
     }
 }
 
-.input.invalid {
+.invalid {
 
     input {
         border-color: $color_red;
+    }
+
+    .input__invalid-message {
+        color: $color_red;
+        font-size: rem(14px);
     }
 }
 

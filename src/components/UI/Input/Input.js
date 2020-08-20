@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './Input.module.scss'
-
+import WarningIcon from '../../../assets/img/warning.svg'
  
 
 export default props => {
@@ -11,12 +11,13 @@ export default props => {
         const cls = [
             classes.input,
             props.disabled ? classes.disabled : null,
+            classes.invalid,
         ]
 
         return (
             <span className={ cls.join(' ') }>
                 <input disabled={props.disabled ? true : false} type={type} placeholder={placeholder} />
-                <p> Ошибка, неправильное значение</p>
+                { true ? <p className={classes['input__invalid-message']}> <WarningIcon /> Ошибка, неправильное значение</p> : null} 
             </span>
         )
 }
