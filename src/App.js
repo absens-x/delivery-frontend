@@ -13,7 +13,12 @@ class App extends Component {
 
         <Button>Найти</Button>
         <hr/>
-        <Input placeholder='Place Text'></Input>
+        <Input  label="Поле"
+                placeholder='Place Text'
+                valid={true}
+                touched={false}
+                shouldValidate={true}/>
+        
 
       </div>
     );

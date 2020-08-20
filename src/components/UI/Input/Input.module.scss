@@ -4,8 +4,8 @@
     margin-bottom: 10px;
 
     input {
-        // display: block;
-        // width: 100%;
+        display: block;
+        width: 100%;
         height: 40px;
         padding-left: 15px;
         border-radius: 4px;
@@ -29,6 +29,15 @@
 
 
 
+.label {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
 //  * Input States
 
 .disabled {
@@ -44,10 +53,18 @@
         border-color: $color_red;
     }
 
-    .input__invalid-message {
+    .invalid-message {
         color: $color_red;
         font-size: rem(14px);
     }
+}
+
+.success {
+
+    input {
+        border-color: $color_green;
+    }
+
 }
 
 
