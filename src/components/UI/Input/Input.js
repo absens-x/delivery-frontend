@@ -14,9 +14,10 @@ export default props => {
 
         const cls = [
             classes.input,
-            props.disabled ? classes.disabled : null,
-       
         ]
+
+        if(props.disabled) { cls.push(classes.disabled)}
+        if(isInvalid(props)) { cls.push(classes.invalid)}
 
         return (
             <span className={ cls.join(' ') }>

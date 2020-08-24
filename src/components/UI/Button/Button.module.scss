@@ -16,6 +16,7 @@
     padding: 10px 30px;
     color: #fff;
     transition: 0.3s;
+    
     @include text-select-off;
 
     &:hover {
@@ -36,7 +37,7 @@
 
 // * Button Sizes
 
-.btn.btn--size--sm {
+.btn.size--sm {
     height: 24px;
     padding: 0 15px;
     text-transform: none;
@@ -49,13 +50,13 @@
 
 // * Button Themes
 
-.btn.btn--theme--red-border {
+.btn.theme--red-border {
     background-color: #fff;
     border-color: $color_red;
     color: $color_red;
 }
 
-.btn.btn--theme--dark {
+.btn.theme--dark {
     background-color: $color_dark;
     border-color: $color_dark;
 
@@ -65,16 +66,11 @@
     }
 }
 
-.btn.btn--theme--dark-border {
+.btn.theme--dark-border {
     background-color: #fff;
     border-color: $color_dark;
     color: $color_dark;
 }
-
-
-
-
-
 
 
 // * Button States
@@ -92,7 +88,44 @@
 
 // * Button List
 
-.btn-cart {
+.btn-hamburger {
+    padding: 10px ;
+    background-color: transparent;
+    border: 1px solid rgba($color: $color_grey, $alpha: 0.3);
+    height: auto;
+    line-height: 0;
+    speak: none;
     
+    
+    &:hover {
+        background-color: rgba($color: $color_dark, $alpha: 0.1);
+    }
+
+    &:active {
+        background-color: $color_dark;
+        svg path {
+            fill: #fff;
+        }
+    }
+
+    
+   
+
+
+}
+
+.btn-cart {
+    position: relative;
+    padding: 10px 10px;
+    padding-left: 40px;
+    font-size: 12px;
+    text-align: right;
+
+    
+
+    i {
+        position: absolute;
+        left: 10px;
+    }
 }
 
