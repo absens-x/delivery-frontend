@@ -1,10 +1,23 @@
 import React from 'react';
 import classes from './Opening.module.scss'
 
+
+import SearchInput from '../UI/SearchInput/SearchInput'
+
+
 const Opening = (props) => {
 
-    return(<div className='s'>
-
+    return(<div className='opening'>
+        <div className={classes.wrap}>
+            <div className="container">
+                <div className={classes.inner}>
+                    <div className="search-region">
+                        <h1 className={classes.title}>Сервис доставки еды <br/>в Ингушетии</h1>
+                        <SearchInput/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>)
 }
 

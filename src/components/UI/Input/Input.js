@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Input.module.scss'
-import { ReactComponent as WarningIcon } from '../../../assets/img/warning.svg'
+import { ReactComponent as WarningIcon } from '../../../assets/img/svg/warning.svg'
  
 function isInvalid({valid, touched, shouldValidate}) {
     return !valid && shouldValidate && touched 
@@ -16,12 +16,17 @@ export default props => {
             classes.input,
         ]
 
-        if(props.disabled) { cls.push(classes.disabled)}
+        if(props.disabled) { cls.push(classes.disabled) }
+
+        if(props.classesList) { cls.push(props.classesList) }
+
+        
+        
         if(isInvalid(props)) { cls.push(classes.invalid)}
 
         return (
             <span className={ cls.join(' ') }>
-                <label className={classes.label} htmlFor={`${htmlFor}`}> {props.label} </label>
+                { (props.label) ? <label className={classes.label} htmlFor={`${htmlFor}`}> {props.label} </label> : null}
                 <input 
                     id={htmlFor}
                     disabled={props.disabled ? true : false}

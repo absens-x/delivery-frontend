@@ -10,9 +10,19 @@
     float: left;
     margin-right: 12px;
     margin-top: 1px;
+
+    svg path {
+        fill: $color_grey;
+        opacity: 0.4;
+    }
+}
+
+p {
+    font-weight: bold;
 }
 
 .link {
-    font-weight: bold;
-    color: $color_dark;
+    color: $color_dark_red;
+    margin-left: 5px;
+    text-decoration: underline;
 }

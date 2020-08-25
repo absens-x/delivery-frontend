@@ -9,28 +9,16 @@ export default props => {
             classes.btn
         ]
 
-        if(props.theme) {
-            cls.push(classes['theme--' + props.theme])
-        }
+        if(props.theme) { cls.push(classes['theme--' + props.theme]) }
 
-        if(props.size) {
-            cls.push(classes['size--' + props.size])
-        }
+        if(props.size) { cls.push(classes['size--' + props.size]) }
 
-        if(props.disabled) {
-            cls.push(classes.disabled)
-        }
+        if(props.disabled) { cls.push(classes.disabled) }
                     
+        if(props.type) { cls.push(classes['btn-' + props.type]) }
 
-        if(props.type) {
-            cls.push(classes['btn-' + props.type])
-        }
-
-        if(props.addClasses) {
-            cls.push(props.addClasses)
-        }
+        if(props.classesList) { cls.push(props.classesList) }
                     
-
     
         return (
             <button className={ cls.join(' ') }>
