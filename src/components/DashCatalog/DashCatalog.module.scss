@@ -1,0 +1,45 @@
+@import '../../sass/boot/utils/index';
+
+
+.catalog {
+    
+}
+
+.catalog-list {
+    padding: 0;
+}
+
+.catalog-item {
+    &:focus, *:focus {
+        outline: none;
+    }
+}
+
+
+.catalog-item__link {
+    display: inline-block;
+    color: $color_dark;
+    text-align: center;
+}
+
+
+.catalog-item__preview {
+    font-size: rem(12px);
+    
+}
+
+.catalog-item__name {
+    display: block;
+    margin-top: 10px;
+    font-size: rem(12px);
+    font-weight: bold;
+}
+
+
+.slick-arrow {
+    border: 1px solid red;
+    &:before {
+        color: $color_dark !important;
+        border: 1px solid $color_dark;
+    }
+}

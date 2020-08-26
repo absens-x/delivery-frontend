@@ -18,8 +18,13 @@ const SearchInput = (props) => {
     return (<div className={cls.join(' ')}>
         <Input classesList={classes.input} placeholder="Введите ваш адрес..."/>
         <Button classesList={classes.btn}>Искать</Button>
-        <div >
-
+        <div className={classes['places-list']}>
+            <ul>
+                <li className={classes['places-list__item']}>ул Муталиева 25, Назрань, Россия</li>
+                <li className={classes['places-list__item']}>ул Муталиева 25, Назрань, Россия</li>
+                <li className={classes['places-list__item']}>ул Муталиева 25, Назрань, Россия</li>
+                <li className={classes['places-list__item']}>ул Муталиева 25, Назрань, Россия</li>
+            </ul>
         </div>
     </div>)
 }
