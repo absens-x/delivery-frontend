@@ -30,10 +30,10 @@ h6 {
 
 h1 {font-size: rem($font_size_xl);}
 h2 {font-size: rem($font_size_lg);}
-h3 {font-size: rem($font_size_md);}
-h4 {font-size: rem($font_size_sm);}
+h3 {font-size: rem($font_size_md); margin: $font_size_md 0}
+h4 {font-size: rem($font_size_sm); margin: $font_size_sm 0}
 h5 {font-size: rem($font_size_xs);}
-h5 {font-size: rem($font_size_xs);}
+h6 {font-size: rem($font_size_xs);}
 
 
 a {

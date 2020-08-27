@@ -8,6 +8,13 @@
 .wrap {
     border: 1px solid $color_light_grey;
     box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.12);
+    border-radius: 6px;
+    transition: box-shadow 0.3s, transform 0.4s;
+
+    &:hover {
+        box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.4);
+        transform: translateY(-5px);
+    }
 }
 
 .preview {
@@ -29,6 +36,7 @@
 }
 
 .name {
+    color: $color_blue;
     margin: 0;
     margin-right: auto;
     font-size: 18px;
@@ -36,7 +44,11 @@
 }
 
 .rate {
+    color: $color_dark;
+    font-weight: bold;
+
     i {
+        color: $color_grey;
         margin-right: 10px;
     }
 }

@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Opening from './components/Opening/Opening'
 import DashCatalog from './components/DashCatalog/DashCatalog'
 import OrgItem from './components/OrgItem/OrgItem'
+import OrgsList from './containers/OrgsList/OrgsList';
 
 
 class App extends Component {
@@ -17,9 +18,10 @@ class App extends Component {
         <DashCatalog/>
         <hr/>
         
-        <div className="container">
+        <OrgsList>
           <OrgItem/>
-        </div>
+        </OrgsList>
+
       </div>
     );
   }
