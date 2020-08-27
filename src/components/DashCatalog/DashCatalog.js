@@ -2,43 +2,25 @@ import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
+import "./slick.custom.theme.scss"
 import classes from './DashCatalog.module.scss'
 
 import dashCatalogPreview from '../../assets/img/dash_catalog_preview.png'
 
 
-
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        onClick={onClick}
-      />
-    );
-  }
-  
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        
-        onClick={onClick}
-      />
-    );
-  }
+ 
 
 
 const settings = {
     autoplay: false,
-    slidesToShow: 12,
+    slidesToShow: 10,
+    slidesToScroll: 1,
     dots: false,
     centerMode: false,
     focusOnSelect: false,
     infinite: false,
-    prevArrow: <SamplePrevArrow className={classes['slick-arrow']}/>,
-    nextArrow: <SampleNextArrow className={classes['slick-arrow']}/>,
+ 
+   
     responsive: [
         {
             breakpoint: 768,

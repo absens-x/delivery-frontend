@@ -48,3 +48,11 @@ li {
         @include toggle-list-style(true);
     }
 }
+
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba($color: $color_grey, $alpha: 0.3);
+}

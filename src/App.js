@@ -2,9 +2,10 @@ import React, { Component } from 'react';
  
 import './sass/main.scss'
 
-import DashCatalog from './components/DashCatalog/DashCatalog'
 import Header from './components/Header/Header'
 import Opening from './components/Opening/Opening'
+import DashCatalog from './components/DashCatalog/DashCatalog'
+import OrgItem from './components/OrgItem/OrgItem'
 
 
 class App extends Component {
@@ -14,6 +15,11 @@ class App extends Component {
         <Header/>
         <Opening/>
         <DashCatalog/>
+        <hr/>
+        
+        <div className="container">
+          <OrgItem/>
+        </div>
       </div>
     );
   }

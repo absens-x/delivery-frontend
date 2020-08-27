@@ -1,0 +1,25 @@
+@import '../../sass/boot/utils/index';
+
+
+.slick-slider {
+    &:focus, *:focus {
+        outline: none;
+    }
+}
+
+.slick-arrow {
+    &:before {
+        color: $color_dark;
+       
+    }
+
+    
+}
+
+.slick-next {
+    // right: -10px
+}
+
+.slick-disabled {
+    opacity: 0.2;
+}

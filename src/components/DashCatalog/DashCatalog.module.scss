@@ -6,13 +6,15 @@
 }
 
 .catalog-list {
+    position: relative;
     padding: 0;
+    margin: 32px 0;
+
+    
 }
 
 .catalog-item {
-    &:focus, *:focus {
-        outline: none;
-    }
+    text-align: center;
 }
 
 

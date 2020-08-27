@@ -10,7 +10,7 @@ const RegionTarget = (props) => {
     }
 
     return (<div className={classes.wrap}>
-                <p>
+                <p className={classes['current-title']}>
                     <i className={classes.icon}><PlaceholderIcon/></i>
                     Доставка в 
                     <a className={classes.link} href="" onClick={onClick}>Назрань</a>
