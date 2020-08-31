@@ -1,0 +1,53 @@
+@import '../../../sass/boot/utils/index';
+
+
+.partnership-item {
+
+    
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    .info {
+        padding-left: 0;
+        // padding-right: 80px;
+    }
+
+    .preview {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+.preview {
+    width: size(5);
+    margin-right: auto;
+    
+    img {
+        border-radius: 10px;
+        @include img-responsive;
+    }
+}
+
+.info {
+    width: size(7);
+    padding: 0 30px;
+}
+
+.details {
+    color: $color_grey;
+    line-height: 150%;
+}
+
+.link {
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: bold;
+    border: 1px solid $color_red;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: $color_red;
+    margin-top: 8px;
+}

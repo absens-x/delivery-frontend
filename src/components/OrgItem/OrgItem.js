@@ -3,8 +3,8 @@ import classes from './OrgItem.module.scss'
 
 import orgPreview from '../../assets/img/org_preview_bg.jpg'
 
-const OrgItem = ({className}) => {
-    return (<div className={`${classes.item} ${className}`}>
+const OrgItem = ({classesList}) => {
+    return (<div className={`${classes.item} ${classesList}`}>
         <div className={classes.wrap}>
             <a href="">
                 <div style={{backgroundImage: `url(${orgPreview})`} } className={classes.preview}></div>

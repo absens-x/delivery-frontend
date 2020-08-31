@@ -1,0 +1,20 @@
+@import '../../../sass/boot/utils/index';
+ 
+.step-item {
+    background-color: #fff;
+    border: 3px dotted rgba($color: $color_grey, $alpha: 0.3);
+    // box-shadow: 0px 10px 24px rgba(43, 45, 66, 0.05);
+    border-radius: 10px;
+    text-align: center;
+    padding: 32px 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: rem(18px);
+}
+
+.details {
+    color: $color_grey;
+    margin-bottom: 0;
+}

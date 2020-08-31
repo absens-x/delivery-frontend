@@ -10,8 +10,8 @@ const OrgsList = () => {
         <h4>Новые рестораны</h4>
         <div className="row">
             {
-                fakeArr.map((item) => {
-                    return <OrgItem className={classes['list-item']}/>
+                fakeArr.map((item, i) => {
+                    return <OrgItem key={i} classesList={classes['list-item']}/>
                 })
             }
         </div>

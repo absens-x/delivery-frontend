@@ -1,6 +1,7 @@
 @import '../../sass/boot/utils/index';
 
 .header {
+    position: relative;
     height: 64px;
     margin-bottom: 56px;
 }
@@ -28,5 +29,10 @@
 }
 
 .logo {
-    margin-right: auto;
+    display: inline-block;
+    @include abs-center;
+    width: size(2);
+    height: 100%;
+    padding-top: 24px;
+    text-align: center;
 }
