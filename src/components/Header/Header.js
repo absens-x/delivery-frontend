@@ -3,7 +3,7 @@ import classes from './Header.module.scss'
 
 import {ReactComponent as CartIcon} from '../../assets/img/svg/cart.svg'
 import {ReactComponent as HamburgerIcon} from '../../assets/img/svg/hamburger.svg'
-import {ReactComponent as Logo} from '../../assets/img/svg/logo.svg'
+import Logo from '../../assets/img/svg/logo.svg'
 
 import RegionTarget from '../RegionTarget/RegionTarget'
 import Button from '../UI/Button/Button'
@@ -24,7 +24,7 @@ const Header = (props) => {
                         <RegionTarget/>
                     </div>
                     
-                    <a className={classes.logo} href=""><Logo/></a>
+                    <a className={classes.logo} href=""><img src={Logo} /></a>
 
                     <div className={classes.toright}>
                         <Button type='cart' classesList={classes['header__btn-cart']}>

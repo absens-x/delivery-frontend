@@ -8,6 +8,7 @@
 
 .wrap {
     position: fixed;
+    top: 0;
     height: inherit;
     align-items: center;
     padding: 0 20px;
@@ -35,4 +36,9 @@
     height: 100%;
     padding-top: 24px;
     text-align: center;
+}
+
+ 
+@include mq('sm-max') {
+
 }

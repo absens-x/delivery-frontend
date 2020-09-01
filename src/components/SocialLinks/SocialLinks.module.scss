@@ -1,0 +1,20 @@
+@import '../../sass/boot/utils/index';
+
+
+.links-list {
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin: 0 12px;
+
+    a {
+        color: $color_grey;
+        transition: 0.3s;
+
+        &:hover {
+            color: $color_red;
+        }
+    }
+}
