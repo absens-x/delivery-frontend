@@ -1,23 +1,21 @@
-@import '../../sass/boot/utils/index';
-
+@import "../../sass/boot/utils/index";
 
 .order-steps {
-
 }
 
 .title {
-    font-size: rem($font_size_md);
-    font-weight: normal;
-    text-align: center;
+  font-size: rem($font_size_md);
+  font-weight: normal;
+  text-align: center;
 }
 
 .wrap {
-    background-color: #fff;
-    padding: 32px 0;
-    margin-top: 56px;
+  background-color: #fff;
+  padding: 32px 0;
+  margin-top: 56px;
 }
 
 .list-item {
-    width: size(4);
-    margin: $gutter;
+  width: size(4);
+  margin: $gutter;
 }

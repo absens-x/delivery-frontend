@@ -1,28 +1,27 @@
-@import '../../sass/boot/utils/index';
-
+@import "../../sass/boot/utils/index";
 
 .wrap {
-    margin: 0 20px;
-    padding-top: 3px;
+  margin: 0 20px;
+  padding-top: 3px;
 }
 
 .icon {
-    float: left;
-    margin-right: 12px;
-    margin-top: 1px;
+  float: left;
+  margin-right: 12px;
+  margin-top: 1px;
 
-    svg path {
-        fill: $color_grey;
-        opacity: 0.4;
-    }
+  svg path {
+    fill: $color_grey;
+    opacity: 0.4;
+  }
 }
 
 .current-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .link {
-    color: $color_dark_red;
-    margin-left: 5px;
-    text-decoration: underline;
+  color: $color_dark_red;
+  margin-left: 5px;
+  text-decoration: underline;
 }

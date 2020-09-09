@@ -1,131 +1,105 @@
-@import '../../../sass/boot/utils/index';
+@import "../../../sass/boot/utils/index";
 
 .btn {
-    display: inline-block;
-    background-color: $color_red;
-    color: inherit;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid $color_red;
-    outline: none;
-    height: 38px;
-    border-radius: 4px;
-    font: $font_size_xs $second_font_family;
-    font-style: normal;
-    font-weight: bold;
-    padding: 10px 30px;
-    color: #fff;
-    transition: 0.3s;
-    
-    @include text-select-off;
+  display: inline-block;
+  background-color: $color_red;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid $color_red;
+  outline: none;
+  height: 38px;
+  border-radius: 4px;
+  font: $font_size_xs $second_font_family;
+  font-style: normal;
+  font-weight: bold;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.3s;
 
-    &:hover {
-        background-color: $color_dark_red;
-    }
+  @include text-select-off;
 
-    &:active {
-        background-color: $color_dark;
-        border-color: $color_dark;
-    }
+  &:hover {
+    background-color: $color_dark_red;
+  }
+
+  &:active {
+    background-color: $color_dark;
+    border-color: $color_dark;
+  }
 }
-
-
-
-
-
-
 
 // * Button Sizes
 
 .btn.size--sm {
-    height: 24px;
-    padding: 0 15px;
-    text-transform: none;
+  height: 24px;
+  padding: 0 15px;
+  text-transform: none;
 }
-
-
-
-
-
 
 // * Button Themes
 
 .btn.theme--red-border {
-    background-color: #fff;
-    border-color: $color_red;
-    color: $color_red;
+  background-color: #fff;
+  border-color: $color_red;
+  color: $color_red;
 }
 
 .btn.theme--dark {
-    background-color: $color_dark;
-    border-color: $color_dark;
+  background-color: $color_dark;
+  border-color: $color_dark;
 
-    &:active {
-        background-color: $color_dark_red;
-        border-color: $color_dark_red;
-    }
+  &:active {
+    background-color: $color_dark_red;
+    border-color: $color_dark_red;
+  }
 }
 
 .btn.theme--dark-border {
-    background-color: #fff;
-    border-color: $color_dark;
-    color: $color_dark;
+  background-color: #fff;
+  border-color: $color_dark;
+  color: $color_dark;
 }
-
 
 // * Button States
 
 .btn.disabled {
-    background-color: $color_light_grey;
-    border: 1px solid $color_grey;
-    color: $color_grey;
+  background-color: $color_light_grey;
+  border: 1px solid $color_grey;
+  color: $color_grey;
 }
-
-
-
-
-
 
 // * Button List
 
 .btn-hamburger {
-    padding: 10px ;
-    background-color: transparent;
-    border: 1px solid rgba($color: $color_grey, $alpha: 0.3);
-    height: auto;
-    line-height: 0;
-    speak: none;
-    
-    
-    &:hover {
-        background-color: rgba($color: $color_dark, $alpha: 0.1);
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid rgba($color: $color_grey, $alpha: 0.3);
+  height: auto;
+  line-height: 0;
+  speak: none;
+
+  &:hover {
+    background-color: rgba($color: $color_dark, $alpha: 0.1);
+  }
+
+  &:active {
+    background-color: $color_dark;
+    svg path {
+      fill: #fff;
     }
-
-    &:active {
-        background-color: $color_dark;
-        svg path {
-            fill: #fff;
-        }
-    }
-
-    
-   
-
-
+  }
 }
 
 .btn-cart {
-    position: relative;
-    padding: 10px 10px;
-    padding-left: 40px;
-    font-size: 12px;
-    text-align: right;
+  position: relative;
+  padding: 10px 10px;
+  padding-left: 40px;
+  font-size: 12px;
+  text-align: right;
 
-    
-
-    i {
-        position: absolute;
-        left: 10px;
-    }
+  i {
+    position: absolute;
+    left: 10px;
+  }
 }
-

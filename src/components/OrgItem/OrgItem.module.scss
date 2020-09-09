@@ -1,79 +1,74 @@
-@import '../../sass/boot/utils/index';
-
+@import "../../sass/boot/utils/index";
 
 .item {
-    
 }
 
 .wrap {
-    border: 1px solid $color_light_grey;
-    box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.12);
-    border-radius: 6px;
-    transition: box-shadow 0.3s, transform 0.4s;
+  border: 1px solid $color_light_grey;
+  box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.12);
+  border-radius: 6px;
+  transition: box-shadow 0.3s, transform 0.4s;
 
-    &:hover {
-        box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.4);
-        transform: translateY(-5px);
-    }
+  &:hover {
+    box-shadow: 0px 7px 15px rgba(43, 45, 66, 0.4);
+    transform: translateY(-5px);
+  }
 }
 
 .preview {
-    min-height: 222px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin: 4px;
-    border-radius: 6px;
+  min-height: 222px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 4px;
+  border-radius: 6px;
 }
 
-
 .info {
-    padding: 20px 20px 0 20px;
+  padding: 20px 20px 0 20px;
 
-    hr {
-        margin: 16px 0;
-    }
+  hr {
+    margin: 16px 0;
+  }
 }
 
 .name {
-    color: $color_blue;
-    margin: 0;
-    margin-right: auto;
-    font-size: 18px;
-    font-weight: bold;
+  color: $color_blue;
+  margin: 0;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .rate {
-    color: $color_dark;
-    font-weight: bold;
+  color: $color_dark;
+  font-weight: bold;
 
-    i {
-        color: $color_grey;
-        margin-right: 10px;
-    }
+  i {
+    color: $color_grey;
+    margin-right: 10px;
+  }
 }
 
-
 .info__title {
-    color: $color_grey;
-    margin: 0;
-    margin-bottom: 5px;
-    
-    span {
-        font-weight: bold;
-        color: $color_dark;
-    }
+  color: $color_grey;
+  margin: 0;
+  margin-bottom: 5px;
+
+  span {
+    font-weight: bold;
+    color: $color_dark;
+  }
 }
 
 .info__top {
-    justify-content: space-between;
-    margin-bottom: 16px;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
-
 .cuisines {
-    color: $color_grey;
-    span {
-        font-weight: bold;
-    }
+  color: $color_grey;
+  span {
+    font-weight: bold;
+  }
 }

@@ -1,14 +1,10 @@
-@import '../../sass/boot/utils/index';
-
+@import "../../sass/boot/utils/index";
 
 .list {
-
 }
 
 .list-item {
-    width: size(4);
-    margin: 0 $gutter;
-    margin-bottom: $gutter;
-
-
+  width: size(4);
+  margin: 0 $gutter;
+  margin-bottom: $gutter;
 }

@@ -1,93 +1,105 @@
-
-
-
-
 @font-face {
-  font-family: 'StyreneAWeb';
-  src: url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.eot');
-  src: local('StyreneAWeb Regular'), local('StyreneAWeb-Regular'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.woff2') format('woff2'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.woff') format('woff'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.ttf') format('truetype');
+  font-family: "StyreneAWeb";
+  src: url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.eot");
+  src: local("StyreneAWeb Regular"), local("StyreneAWeb-Regular"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.woff2")
+      format("woff2"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.woff")
+      format("woff"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Regular.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'StyreneAWeb';
-  src: url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.eot');
-  src: local('StyreneAWeb Black'), local('StyreneAWeb-Black'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.eot?#iefix') format('embedded-opentype'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.woff2') format('woff2'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.woff') format('woff'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.ttf') format('truetype');
+  font-family: "StyreneAWeb";
+  src: url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.eot");
+  src: local("StyreneAWeb Black"), local("StyreneAWeb-Black"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.woff2")
+      format("woff2"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.woff")
+      format("woff"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Black.ttf")
+      format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'StyreneAWeb';
-  src: url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.eot');
-  src: local('StyreneAWeb Medium'), local('StyreneAWeb-Medium'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.woff2') format('woff2'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.woff') format('woff'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.ttf') format('truetype');
+  font-family: "StyreneAWeb";
+  src: url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.eot");
+  src: local("StyreneAWeb Medium"), local("StyreneAWeb-Medium"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.woff2")
+      format("woff2"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.woff")
+      format("woff"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Medium.ttf")
+      format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: 'StyreneAWeb';
-  src: url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.eot');
-  src: local('StyreneAWeb Bold'), local('StyreneAWeb-Bold'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.woff2') format('woff2'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.woff') format('woff'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.ttf') format('truetype');
+  font-family: "StyreneAWeb";
+  src: url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.eot");
+  src: local("StyreneAWeb Bold"), local("StyreneAWeb-Bold"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.woff2")
+      format("woff2"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.woff")
+      format("woff"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Bold.ttf")
+      format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'StyreneAWeb';
-  src: url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.eot');
-  src: local('StyreneAWeb Light'), local('StyreneAWeb-Light'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.eot?#iefix') format('embedded-opentype'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.woff2') format('woff2'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.woff') format('woff'),
-      url('../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.ttf') format('truetype');
+  font-family: "StyreneAWeb";
+  src: url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.eot");
+  src: local("StyreneAWeb Light"), local("StyreneAWeb-Light"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.woff2")
+      format("woff2"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.woff")
+      format("woff"),
+    url("../../../assets/fonts/StyreneAWeb/StyreneAWeb-Light.ttf")
+      format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
-
-
-
-
-
-
-
 // Icon Fonts
 
-
 @font-face {
-  font-family: 'GlyphsMain';
-  src:  url('../../../assets/fonts/GlyphsMain/GlyphsMain.eot?twatn8');
-  src:  url('../../../assets/fonts/GlyphsMain/GlyphsMain.eot?twatn8#iefix') format('embedded-opentype'),
-    url('../../../assets/fonts/GlyphsMain/GlyphsMain.ttf?twatn8') format('truetype'),
-    url('../../../assets/fonts/GlyphsMain/GlyphsMain.woff?twatn8') format('woff'),
-    url('../../../assets/fonts/GlyphsMain/GlyphsMain.svg?twatn8#GlyphsMain') format('svg');
+  font-family: "GlyphsMain";
+  src: url("../../../assets/fonts/GlyphsMain/GlyphsMain.eot?twatn8");
+  src: url("../../../assets/fonts/GlyphsMain/GlyphsMain.eot?twatn8#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/GlyphsMain/GlyphsMain.ttf?twatn8")
+      format("truetype"),
+    url("../../../assets/fonts/GlyphsMain/GlyphsMain.woff?twatn8")
+      format("woff"),
+    url("../../../assets/fonts/GlyphsMain/GlyphsMain.svg?twatn8#GlyphsMain")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="glyph-"], [class*=" glyph-"] {
+[class^="glyph-"],
+[class*=" glyph-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'GlyphsMain' !important;
+  font-family: "GlyphsMain" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;

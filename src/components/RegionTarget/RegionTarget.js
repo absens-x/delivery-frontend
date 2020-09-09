@@ -1,22 +1,26 @@
-import React from 'react'
-import classes from './RegionTarget.module.scss'
+import React from "react";
+import classes from "./RegionTarget.module.scss";
 
-import {ReactComponent as PlaceholderIcon} from '../../assets/img/svg/placeholder1.svg'
+import { ReactComponent as PlaceholderIcon } from "../../assets/img/svg/placeholder1.svg";
 
 const RegionTarget = (props) => {
+  const onClick = (e) => {
+    e.preventDefault();
+  };
 
-    const onClick = (e) => {
-        e.preventDefault()
-    }
+  return (
+    <div className={classes.wrap}>
+      <p className={classes["current-title"]}>
+        <i className={classes.icon}>
+          <PlaceholderIcon />
+        </i>
+        Доставка в
+        <a className={classes.link} href="" onClick={onClick}>
+          Назрань
+        </a>
+      </p>
+    </div>
+  );
+};
 
-    return (<div className={classes.wrap}>
-                <p className={classes['current-title']}>
-                    <i className={classes.icon}><PlaceholderIcon/></i>
-                    Доставка в 
-                    <a className={classes.link} href="" onClick={onClick}>Назрань</a>
-                </p>
-            </div>)
-}
-
-
-export default RegionTarget
+export default RegionTarget;

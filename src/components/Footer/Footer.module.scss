@@ -1,50 +1,47 @@
-@import '../../sass/boot/utils/index';
-
-
-
+@import "../../sass/boot/utils/index";
 
 .wrap {
-    background-color: #fff;
-    margin-top: 56px * 2;
+  background-color: #fff;
+  margin-top: 56px * 2;
 }
 
-.top, .bottom {
-    padding: 32px 0;
-    border-top: 1px solid rgba($color: $color_grey, $alpha: 0.3);
-    border-bottom: 1px solid rgba($color: $color_grey, $alpha: 0.3);
+.top,
+.bottom {
+  padding: 32px 0;
+  border-top: 1px solid rgba($color: $color_grey, $alpha: 0.3);
+  border-bottom: 1px solid rgba($color: $color_grey, $alpha: 0.3);
 }
-
 
 .middle {
-    padding: 32px 0;
+  padding: 32px 0;
 }
 
 .copyright {
-    margin: 0;
-    font-weight: bold;
-    opacity: 0.3;
-    margin-right: auto;
+  margin: 0;
+  font-weight: bold;
+  opacity: 0.3;
+  margin-right: auto;
 }
 
 .nav {
-    margin-left: auto;
-    ul {
-        padding: 0;
-        margin: 0;
-    }
+  margin-left: auto;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
 
-    li {
-        margin-left: 30px;
-    }
+  li {
+    margin-left: 30px;
+  }
 
-    a {
-        font-weight: bold;
-        font-family: $second_font_family;
-        color: $color_dark;
-        transition: 0.3s;
+  a {
+    font-weight: bold;
+    font-family: $second_font_family;
+    color: $color_dark;
+    transition: 0.3s;
 
-        &:hover {
-            color: $color_red;
-        }
+    &:hover {
+      color: $color_red;
     }
+  }
 }

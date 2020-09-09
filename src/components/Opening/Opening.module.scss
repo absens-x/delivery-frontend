@@ -1,58 +1,49 @@
-@import '../../sass/boot/utils/index';
- 
-.wrap {
-    position: relative;
-    min-height: 296px;
-    margin-top: -56px;
-    background: url('../../assets/img/opening_bg.jpg') no-repeat center center;
-    background-size: cover;
+@import "../../sass/boot/utils/index";
 
-     
+.wrap {
+  position: relative;
+  min-height: 296px;
+  margin-top: -56px;
+  background: url("../../assets/img/opening_bg.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-
 .inner {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    align-items: center;    
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 .content {
-    width: 100%;
+  width: 100%;
 }
-
 
 .search-region {
-    width: size(5);
+  width: size(5);
 }
-
-
 
 .title {
-    font-size: rem($font_size_md);
-    color: #fff;
-    line-height: 120%;
-  
-    margin: 0;
-    margin-bottom: 24px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: rem($font_size_md);
+  color: #fff;
+  line-height: 120%;
+
+  margin: 0;
+  margin-bottom: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+//
 
-
-// 
-
-
-@include mq('lg_max') {
-    .search-region {
-        width: size(6);
-    }
+@include mq("lg_max") {
+  .search-region {
+    width: size(6);
+  }
 }
 
-@include mq('md_max') {
-    .search-region {
-        width: size(8);
-    }
+@include mq("md_max") {
+  .search-region {
+    width: size(8);
+  }
 }
