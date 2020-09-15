@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.wrap}>
-        <div className={classes.top}>
+        {/* <div className={classes.top}>
           <div className="container">
             <div className="row-mg">
               <div className={classes.logo}>
@@ -31,9 +31,9 @@ const Footer = () => {
               </nav>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.middle}></div>
+        {/* <div className={classes.middle}></div> */}
 
         <div className={classes.bottom}>
           <div className="container">
