@@ -1,35 +1,17 @@
-import React, { Component } from "react";
+import React, { Fragment, Component } from "react";
+import { Route, Switch } from "react-router-dom";
 
 import "./sass/main.scss";
-
-import Header from "./components/Header/Header";
-import Opening from "./components/Opening/Opening";
-import DashCatalog from "./components/DashCatalog/DashCatalog";
-import OrgItem from "./components/OrgItem/OrgItem";
-import OrgsList from "./containers/OrgsList/OrgsList";
-import OrderSteps from "./components/OrderSteps/OrderSteps";
-import Partnership from "./components/Partnership/Partnership";
-import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Orgs from "./pages/Orgs/Orgs";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Opening />
-        <DashCatalog />
-        <hr />
-
-        <OrgsList>
-          <OrgItem />
-        </OrgsList>
-
-        <OrderSteps />
-
-        <Partnership />
-
-        <Footer />
-      </div>
+      <Switch>
+        <Route path="/orgs" component={Orgs} />
+        <Route path="/" component={Home} />
+      </Switch>
     );
   }
 }
